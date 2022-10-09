@@ -1,0 +1,84 @@
+_type: export
+__export_format: 4
+__export_date: 2022-09-27T15:47:53.912Z
+__export_source: insomnia.desktop.app:v2022.6.0
+resources:
+  - _id: req_997f6f590f4e4a2499722d7b6fafa1fd
+    parentId: wrk_23b89507a37049838b0d42476a7d8335
+    modified: 1664293562117
+    created: 1664293189710
+    url: "{{ _.scheme }}://{{ _.host }}:{{ _.port }}/info"
+    name: info
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1664293189710
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_23b89507a37049838b0d42476a7d8335
+    parentId: null
+    modified: 1664293189684
+    created: 1664293189684
+    name: New Document
+    description: ""
+    scope: design
+    _type: workspace
+  - _id: env_a9a7ea0da57aa8d6cfa29ff7fefb848ddaac6011
+    parentId: wrk_23b89507a37049838b0d42476a7d8335
+    modified: 1664293299348
+    created: 1664293189703
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: {}
+    color: null
+    isPrivate: false
+    metaSortKey: 1664293189703
+    _type: environment
+  - _id: jar_a9a7ea0da57aa8d6cfa29ff7fefb848ddaac6011
+    parentId: wrk_23b89507a37049838b0d42476a7d8335
+    modified: 1664293189706
+    created: 1664293189706
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_dea00874ae71486cad0c705796016352
+    parentId: wrk_23b89507a37049838b0d42476a7d8335
+    modified: 1664293623800
+    created: 1664293189697
+    fileName: vmpc-api
+    contents: ""
+    contentType: yaml
+    _type: api_spec
+  - _id: uts_593c866b1fbe438799cfbc944f6e5dc5
+    parentId: wrk_23b89507a37049838b0d42476a7d8335
+    modified: 1664293189712
+    created: 1664293189712
+    name: Example Test Suite
+    _type: unit_test_suite
+  - _id: env_10ed43a0bae84ee582c3cd7533b6c972
+    parentId: env_a9a7ea0da57aa8d6cfa29ff7fefb848ddaac6011
+    modified: 1664293605784
+    created: 1664293312684
+    name: vmpc-api-local-http
+    data:
+      scheme: http
+      host: localhost
+      port: 3000
+    dataPropertyOrder:
+      "&":
+        - scheme
+        - host
+        - port
+    color: null
+    isPrivate: false
+    metaSortKey: 1664293312684
+    _type: environment

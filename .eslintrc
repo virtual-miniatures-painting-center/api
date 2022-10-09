@@ -1,0 +1,3 @@
+{
+    "extends": ["@piotr-placzek/eslint-config/typescript", "@piotr-placzek/eslint-config/jest"]
+}

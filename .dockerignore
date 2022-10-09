@@ -1,0 +1,15 @@
+.git
+.gitignore
+.gitlab-ci.yml
+.idea
+.vscode
+
+.DS_Store
+
+dist
+docker
+node_modules
+
+Makefile
+docker-compose.yml
+README.md
